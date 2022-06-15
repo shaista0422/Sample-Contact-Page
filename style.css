@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* nav */
+nav {
+    font-family: "Times New Roman", Times, serif;
+}
+
+nav ul {
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+nav li {
+    list-style-type: none;
+    padding-left: 80px;
+    text-transform: lowercase;
+
+}
+
+nav span {
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+.rightSide {
+    padding-left: 470px;
+}
+
+.navbar {
+    height: 70%;
+}
+
+.navbar ul {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 14px;
+}
+
+.navbar li i {
+    padding: 0 20px;
+}
+
+.right {
+    padding-left: 250px;
+    width: 80px;
+}
+
+.brand {
+    width: 32%;
+    padding-right: 20px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart span {
+    position: absolute;
+    width: 26%;
+    border-radius: 104px;
+    top: -8px;
+    right: 3px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* contact details */
+.container {
+    background-color: black;
+    background-image: url(imgs/bg-contact.jpg);
+    color: white;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.centre div {
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    padding: 10px;
+    height: auto;
+    margin: 5px;
+}
+
+.centre {
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left div {
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px grey;
+    transition: width 1s;
+}
+
+.float-left div:hover {
+    width: 43%;
+}
+
+.cu {
+    padding: 5px;
+    float: right;
+}
+
+.float-left i {
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.float-left i {
+    color: blue;
+}
+
+
+input[type=text],
+input[type=mail],
+select,
+textarea {
+    width: 178%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 60px;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 178%;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+
+
+input[type=submit]:hover {
+    background-color: #04AA6D;
+}
+
+.containers {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.map iframe {
+    margin: 0 22px;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+footer img {
+    width: 170px;
+    padding-bottom: 30px;
+}
+
+footer i {
+    padding: 10px;
+    padding-bottom: 20px;
+
+}
+
+footer .line {
+    display: inline;
+    padding-bottom: 20px;
+}
+
+footer .copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.socail {
+    padding-bottom: 30px;
+}
+
+.socail i {
+    background-color: blue;
+    width: 20px;
+    height: 5px;
+    text-align: center;
+    display: inline;
+    padding: 6px;
+    padding-left: 6px;
+}
+
+.help {
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+.list li {
+    list-style-type: none;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
